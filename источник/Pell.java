@@ -4,10 +4,10 @@ public class Pell {
         System.out.println("Введите число от 0 до 30 включительно");
         try (Scanner scanner = new Scanner(System.in)) {
             int n = scanner.nextInt();
-            long pellNumber = 0;
-            long pellNumber0 = 0;
-            long pellNumber1 = 1;
-            long pellNumber2 = 0;
+            long pellNumber = 0L;
+            long pellNumber0 = 0L;
+            long pellNumber1 = 1L;
+            long pellNumber2 = 0L;
 
              if (n >= 0 && n <= 30) {
                  if (n == 1) {
