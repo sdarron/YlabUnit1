@@ -11,7 +11,7 @@ public class Pell {
 
              if (n >= 0 && n <= 30) {
                  if (n == 1) {
-                     pellNumber = 1;
+                     pellNumber = 1L;
                  } else if (n > 1 && n <= 30){
                          for (int i = 2; i <= n; i++) {
                              pellNumber2 = 2 * pellNumber1 + pellNumber0;
